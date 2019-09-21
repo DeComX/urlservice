@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const API_URL = "http://api.abcer.world/api/v1/";
+export const API_URL = "https://api.abcer.world/api/v1/";
 
 export const getUrl = (url) => {
   return new Promise(
