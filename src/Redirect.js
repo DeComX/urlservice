@@ -55,7 +55,7 @@ class ABCRedirect extends Component {
       <div className="container" style={{
         display: 'flex',
         justifyContent: 'center',
-        minHeight: 800
+        minHeight: 600
       }}>
         <div align='center' style={{
           alignSelf: 'center'
