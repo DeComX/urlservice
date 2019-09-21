@@ -6,6 +6,7 @@ class App extends Component {
   render() {
     return (
       <Router>
+        <Route exact path="/" component={ABCRedirect} />
         <Route exact path="/:id" component={ABCRedirect} />
       </Router>
     );
